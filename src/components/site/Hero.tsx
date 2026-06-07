@@ -57,6 +57,7 @@ export function Hero() {
         muted
         playsInline
         preload="auto"
+        poster={heroImg}
       />
 
       {/* Cinematic overlays */}
