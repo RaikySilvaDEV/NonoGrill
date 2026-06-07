@@ -12,7 +12,7 @@ const schema = z.object({
   pessoas: z.string().min(1, "Informe a quantidade"),
 });
 
-const WHATSAPP_NUMBER = "5516000000000"; // substituir pelo número real
+const WHATSAPP_NUMBER = "551637224032"; // número real da Nonno Grill
 
 export function Reservation() {
   const [errors, setErrors] = useState<Record<string, string>>({});

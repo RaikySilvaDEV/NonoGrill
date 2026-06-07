@@ -39,7 +39,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-gold" />
-                (16) 0000-0000
+                <a href="tel:1637224032" className="hover:text-gold transition">(16) 3722-4032</a>
               </li>
             </ul>
           </div>
@@ -47,15 +47,15 @@ export function Footer() {
           <div>
             <h4 className="text-[11px] tracking-[0.3em] uppercase text-gold mb-5">Horários</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>Seg — Qui · 11h às 23h</li>
-              <li>Sex — Sáb · 11h às 00h</li>
-              <li>Domingo · 11h às 22h</li>
+              <li>Ter — Sáb · 11h30 às 15h · 19h às 23h</li>
+              <li>Domingo · 11h30 às 16h (Almoço)</li>
+              <li>Segunda-feira · Fechado</li>
             </ul>
             <div className="flex gap-3 mt-6">
-              <a href="#" aria-label="Instagram" className="w-10 h-10 rounded-full border border-border grid place-items-center hover:border-gold hover:text-gold transition">
+              <a href="https://www.instagram.com/nonno_grill" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-10 h-10 rounded-full border border-border grid place-items-center hover:border-gold hover:text-gold transition">
                 <Instagram className="w-4 h-4" />
               </a>
-              <a href="#" aria-label="Facebook" className="w-10 h-10 rounded-full border border-border grid place-items-center hover:border-gold hover:text-gold transition">
+              <a href="https://www.facebook.com/nonnogrillfranca" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-10 h-10 rounded-full border border-border grid place-items-center hover:border-gold hover:text-gold transition">
                 <Facebook className="w-4 h-4" />
               </a>
             </div>

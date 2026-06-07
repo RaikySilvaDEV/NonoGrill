@@ -37,16 +37,16 @@ export function Location() {
               </p>
               <div className="mt-8 space-y-2 text-sm text-muted-foreground">
                 <div className="flex justify-between border-b border-border py-2">
-                  <span>Seg — Qui</span>
-                  <span className="text-foreground">11h às 23h</span>
+                  <span>Ter — Sáb</span>
+                  <span className="text-foreground">11h30–15h | 19h–23h</span>
                 </div>
                 <div className="flex justify-between border-b border-border py-2">
-                  <span>Sex — Sáb</span>
-                  <span className="text-foreground">11h às 00h</span>
-                </div>
-                <div className="flex justify-between py-2">
                   <span>Domingo</span>
-                  <span className="text-foreground">11h às 22h</span>
+                  <span className="text-foreground">11h30–16h (Almoço)</span>
+                </div>
+                <div className="flex justify-between py-2 text-red-500 font-medium">
+                  <span>Segunda-feira</span>
+                  <span>Fechado</span>
                 </div>
               </div>
             </div>
