@@ -1,7 +1,6 @@
 import { useEffect, useRef } from "react";
 import { motion } from "motion/react";
 import { ArrowRight, UtensilsCrossed } from "lucide-react";
-import heroImg from "@/assets/hero-grill.jpg";
 import heroVideo from "@/assets/Nonno_Grill_restaurant_exterior_…_202606062342.mp4";
 
 export function Hero() {
@@ -58,7 +57,6 @@ export function Hero() {
         muted
         playsInline
         preload="auto"
-        poster={heroImg}
       />
 
       {/* Cinematic overlays */}
